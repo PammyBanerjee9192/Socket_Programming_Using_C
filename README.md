@@ -91,11 +91,11 @@ Example for hamming_code.c:<br>
 
 Terminal 1 (Server)<br>
 
-hamming server<br>
+hamming_server<br>
 
 Terminal 2 (Client)<br>
 
-hamming client<br>
+hamming_client<br>
 
 
 
