@@ -9,24 +9,22 @@ This project demonstrates **various error detection techniques** implemented at 
 - Chat Server (Simple Socket Communication)
 
 ---
-#⚙️ Setup & Execution<br>
+# ⚙️ Setup & Execution<br>
 
 🖥️ Requirements<br>
 
-GCC Compiler<br>
+1.GCC Compiler<br>
 
-----------------------------------
-Linux Terminal (or WSL on Windows)<br>
+2.Linux Terminal (or WSL on Windows)<br>
 
------------------------------------------
-Basic knowledge of C and socket programming<br>
+3.Basic knowledge of C and socket programming<br>
 
-#How to run:--<br>
+# How to run:--<br>
 
-1.Linux<br>
+# 1.Linux<br>
 
 🧪 Compilation<br>
----------------------
+
 You can compile each program using the following command:<br>
 
 gcc filename.c -o outputname<br>
@@ -37,7 +35,6 @@ gcc hamming_code.c -o hamming<br>
 
 🔌 Running the Programs<br>
 
-----------------------
 Open two terminal windows:<br>
 
 One as Server<br>
@@ -46,15 +43,15 @@ One as Client<br>
 
 Example for hamming_code.c:<br>
 
-# Terminal 1 (Server)<br>
+#Terminal 1 (Server)<br>
 
 ./hamming server<br>
 
-# Terminal 2 (Client)<br>
+#Terminal 2 (Client)<br>
 
 ./hamming client<br>
 
-2.windows<br>
+# 2.windows<br>
 
 A.for windows instead of arpa/inet.h you need to include <br>
 
@@ -74,7 +71,6 @@ WSACleanup();<br>
 
 🧪 Compilation<br>
 
----------------------
 You can compile each program using the following command:<br>
 
 gcc filename.c -o outputname.exe -lws2_32<br>
@@ -85,7 +81,6 @@ gcc hamming_code.c -o hamming.exe -lws2_32<br>
 
 🔌 Running the Programs<br>
 
-----------------------
 Open two terminal windows:<br>
 
 One as Server<br>
@@ -94,10 +89,11 @@ One as Client<br>
 
 Example for hamming_code.c:<br>
 
-# Terminal 1 (Server)<br>
+Terminal 1 (Server)<br>
 
 hamming server<br>
-# Terminal 2 (Client)<br>
+
+Terminal 2 (Client)<br>
 
 hamming client<br>
 
