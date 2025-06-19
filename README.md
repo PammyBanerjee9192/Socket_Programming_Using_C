@@ -59,7 +59,7 @@ A.for windows instead of arpa/inet.h you need to include <br>
 
 #include <ws2tcpip.h><br>
 
-B.before using socket you need to write this lines:<br>
+B.before using socket you need to write these lines:<br>
 
 WSADATA wsa;<br>
 
